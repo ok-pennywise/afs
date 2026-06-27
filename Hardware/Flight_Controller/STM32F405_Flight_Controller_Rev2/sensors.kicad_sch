@@ -166,146 +166,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Sensor_Motion:ICM-42688-P"
 			(pin_names
 				(offset 1.016)
@@ -1547,16 +1407,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 82.55) (xy 190.5 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "618036d5-bb9c-4ab9-a6a5-b79e9129dd9f")
-	)
-	(wire
-		(pts
 			(xy 238.76 80.01) (xy 247.65 80.01)
 		)
 		(stroke
@@ -1649,6 +1499,30 @@
 			)
 		)
 	)
+	(global_label "SPI3_MISO"
+		(shape input)
+		(at 198.12 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0722b525-45ad-48df-ab6b-2220dcf5d1cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.2772 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SPI1_MISO"
 		(shape input)
 		(at 52.07 92.71 180)
@@ -1662,6 +1536,30 @@
 		(uuid "16143895-ee49-428b-8f80-64be7c46ff22")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 39.2272 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SPI3_SCK"
+		(shape input)
+		(at 198.12 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2343dfa4-41f0-4690-924f-472e4d564be7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.1239 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1697,31 +1595,7 @@
 			)
 		)
 	)
-	(global_label "I2C1_SCL"
-		(shape input)
-		(at 198.12 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "764897ad-d79c-4abd-a24c-cafc8d89fceb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.3658 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "I2C1_SDA"
+	(global_label "SPI3_MOSI"
 		(shape input)
 		(at 198.12 90.17 180)
 		(fields_autoplaced yes)
@@ -1731,9 +1605,9 @@
 			)
 			(justify right)
 		)
-		(uuid "a3a5e41a-5969-405e-8dd7-3457c1b2af55")
+		(uuid "a1015d62-4eab-485a-8c26-32feb9a1cc09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.3053 90.17 0)
+			(at 185.2772 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1758,6 +1632,30 @@
 		(uuid "c5d4fc2f-3e55-4d12-847b-186648f2f13b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 42.251 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BARO_CS"
+		(shape input)
+		(at 198.12 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d79e6cc7-8d57-4a1b-8756-24be86eab859")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.7286 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1946,85 +1844,6 @@
 			(project "STM32F405_Flight_Controller_Rev2"
 				(path "/35cd59c0-3af5-4f49-8a4d-f1185ab2b827/fcd9a61f-fbab-426d-a289-e0e97bd4faa1"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 194.31 82.55 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "30ef1c09-a5d4-40c7-8e40-78fa0d3dcd4c")
-		(property "Reference" "R7"
-			(at 194.31 80.264 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 194.31 77.724 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 194.31 80.772 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 194.31 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "da5d9469-527c-4dea-8d29-14cd1cb88619")
-		)
-		(pin "2"
-			(uuid "b9488a3e-e437-4c95-b249-a3ba3743b006")
-		)
-		(instances
-			(project "STM32F405_Flight_Controller_Rev2"
-				(path "/35cd59c0-3af5-4f49-8a4d-f1185ab2b827/fcd9a61f-fbab-426d-a289-e0e97bd4faa1"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2263,84 +2082,6 @@
 			(project "STM32F405_Flight_Controller_Rev2"
 				(path "/35cd59c0-3af5-4f49-8a4d-f1185ab2b827/fcd9a61f-fbab-426d-a289-e0e97bd4faa1"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 198.12 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "657a7878-aaf3-4e0b-89d6-f6ea21947e2f")
-		(property "Reference" "#PWR039"
-			(at 198.12 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 198.12 97.155 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fafd5b01-ced2-43f9-a0ff-9899a628850e")
-		)
-		(instances
-			(project "STM32F405_Flight_Controller_Rev2"
-				(path "/35cd59c0-3af5-4f49-8a4d-f1185ab2b827/fcd9a61f-fbab-426d-a289-e0e97bd4faa1"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3311,84 +3052,6 @@
 			(project "STM32F405_Flight_Controller_Rev2"
 				(path "/35cd59c0-3af5-4f49-8a4d-f1185ab2b827/fcd9a61f-fbab-426d-a289-e0e97bd4faa1"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 186.69 82.55 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cbc7a546-51f3-46fc-bebd-b761397131e6")
-		(property "Reference" "#PWR038"
-			(at 190.5 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 185.42 80.01 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 186.69 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ed1f35f8-21ca-4de5-829b-a84d624db607")
-		)
-		(instances
-			(project "STM32F405_Flight_Controller_Rev2"
-				(path "/35cd59c0-3af5-4f49-8a4d-f1185ab2b827/fcd9a61f-fbab-426d-a289-e0e97bd4faa1"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)

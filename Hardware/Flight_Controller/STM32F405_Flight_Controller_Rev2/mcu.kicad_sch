@@ -2824,17 +2824,6 @@
 		)
 		(uuid "71013edd-4741-4664-a98a-2860eacb2764")
 	)
-	(text "I2C1 is used for low-bandwidth environmental sensors such as the BMP390L \nbarometer, providing a simple shared bus interface while minimizing SPI \nresource usage."
-		(exclude_from_sim no)
-		(at 219.71 121.92 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "89d39036-8131-4309-b5ed-5f5d58865819")
-	)
 	(text "TIM1 is an advanced 16-bit timer with precise PWM generation, \nmaking it ideal for generating DShot signals for the motors."
 		(exclude_from_sim no)
 		(at 208.28 77.47 0)
@@ -2915,12 +2904,6 @@
 		(uuid "0b9b0372-81b3-44a5-bd31-627008ae7161")
 	)
 	(junction
-		(at 201.93 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c00ca05-5239-43c9-afb9-fda04a411a72")
-	)
-	(junction
 		(at 149.86 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2945,12 +2928,6 @@
 		(uuid "38d644ba-3ce1-472b-9e08-c901b40b010b")
 	)
 	(junction
-		(at 194.31 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a8cd481-6d76-457c-867b-fc882fb9e499")
-	)
-	(junction
 		(at 142.24 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2973,12 +2950,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65c3bc88-969f-4da8-aec0-237dd98f585d")
-	)
-	(junction
-		(at 201.93 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70d85c67-198f-43ac-a2e8-9901373ca35c")
 	)
 	(junction
 		(at 172.72 43.18)
@@ -3087,10 +3058,6 @@
 		(uuid "1f23787f-5cfd-493d-a2c7-59a13b44c8a0")
 	)
 	(no_connect
-		(at 167.64 113.03)
-		(uuid "24bc1ebd-0e00-40f6-8bd4-b92ccf7268c1")
-	)
-	(no_connect
 		(at 167.64 67.31)
 		(uuid "3a13fd6d-4f0d-49fd-b9f3-4fa3fff41a52")
 	)
@@ -3115,12 +3082,12 @@
 		(uuid "7342d55b-3e42-4834-b004-9f9b5f9317de")
 	)
 	(no_connect
-		(at 127 90.17)
-		(uuid "74960555-8c89-4f45-bba7-c40988760713")
-	)
-	(no_connect
 		(at 167.64 105.41)
 		(uuid "7a133b4b-5cc6-42c2-a976-3fe2b79733dd")
+	)
+	(no_connect
+		(at 167.64 120.65)
+		(uuid "7dc95aa9-e0f7-4686-a614-e27f455c2da7")
 	)
 	(no_connect
 		(at 167.64 128.27)
@@ -3151,16 +3118,12 @@
 		(uuid "d9517d40-e481-456f-9c3a-9336c38b3461")
 	)
 	(no_connect
+		(at 167.64 123.19)
+		(uuid "def10969-9efe-4325-91aa-2bfb49df24f3")
+	)
+	(no_connect
 		(at 167.64 95.25)
 		(uuid "e42b8df1-b268-4d94-be1c-29b9166024be")
-	)
-	(no_connect
-		(at 167.64 110.49)
-		(uuid "e8149403-62a3-4582-b83f-1744ab157159")
-	)
-	(no_connect
-		(at 167.64 107.95)
-		(uuid "eb86dfa0-710c-413e-bbe0-3483ad7f4da5")
 	)
 	(no_connect
 		(at 167.64 102.87)
@@ -3205,16 +3168,6 @@
 			(type default)
 		)
 		(uuid "132f96d2-0e0b-48ff-bb2f-b936d4947831")
-	)
-	(wire
-		(pts
-			(xy 194.31 123.19) (xy 207.01 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1abf283d-6f56-4a61-a8eb-3ae83da60634")
 	)
 	(wire
 		(pts
@@ -3388,16 +3341,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 133.35) (xy 201.93 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e6e9154-84dc-4150-80a9-b4c10df3dc47")
-	)
-	(wire
-		(pts
 			(xy 133.35 43.18) (xy 142.24 43.18)
 		)
 		(stroke
@@ -3425,6 +3368,16 @@
 			(type default)
 		)
 		(uuid "641a76d3-2327-420c-aea2-b896da4269bf")
+	)
+	(wire
+		(pts
+			(xy 220.98 110.49) (xy 167.64 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a6fe8fd-9abd-4fb1-a41c-60665970bab7")
 	)
 	(wire
 		(pts
@@ -3458,16 +3411,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 123.19) (xy 194.31 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7237efbc-ffe0-48d7-8f07-2f27d1f5196a")
-	)
-	(wire
-		(pts
 			(xy 88.9 67.31) (xy 88.9 72.39)
 		)
 		(stroke
@@ -3495,16 +3438,6 @@
 			(type default)
 		)
 		(uuid "7e110cc1-0c20-4f48-8377-ffde116b251c")
-	)
-	(wire
-		(pts
-			(xy 194.31 123.19) (xy 194.31 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82e98063-6782-4d3f-ae73-501157816089")
 	)
 	(wire
 		(pts
@@ -3728,6 +3661,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 107.95) (xy 167.64 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6dd0848-0801-44fb-be79-5b63e58dcd72")
+	)
+	(wire
+		(pts
 			(xy 166.37 43.18) (xy 172.72 43.18)
 		)
 		(stroke
@@ -3765,26 +3708,6 @@
 			(type default)
 		)
 		(uuid "e053aa33-1b74-49b9-a4b4-f2c951cf6d00")
-	)
-	(wire
-		(pts
-			(xy 167.64 120.65) (xy 201.93 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e22ddd3b-0965-4ba6-a8c5-0a79a07fde7a")
-	)
-	(wire
-		(pts
-			(xy 201.93 120.65) (xy 207.01 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecda3dde-8ff2-4046-8c45-df776fc57a24")
 	)
 	(wire
 		(pts
@@ -3828,16 +3751,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 120.65) (xy 201.93 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd45101c-b682-4f0c-9ee1-2538b2f14523")
-	)
-	(wire
-		(pts
 			(xy 194.31 62.23) (xy 167.64 62.23)
 		)
 		(stroke
@@ -3845,6 +3758,16 @@
 			(type default)
 		)
 		(uuid "fd700a9c-e60f-4435-99ff-0b8f10bed2ce")
+	)
+	(wire
+		(pts
+			(xy 167.64 113.03) (xy 220.98 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffbe9917-9395-4ffd-bb3e-19dbd7f666fe")
 	)
 	(label "OSC_OUT"
 		(at 127 69.85 180)
@@ -4033,6 +3956,30 @@
 		(uuid "5592da41-6e68-4f8b-ace9-166e373318d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 207.5761 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SPI3_MOSI"
+		(shape input)
+		(at 220.98 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a9e84b8-0b65-449e-b552-b5f3cf8f2fba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.8228 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4260,30 +4207,6 @@
 			)
 		)
 	)
-	(global_label "I2C1_SDA"
-		(shape input)
-		(at 207.01 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b1134c95-b313-45c0-a205-c4e0815909e6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.8247 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "TX2"
 		(shape input)
 		(at 194.31 62.23 0)
@@ -4297,6 +4220,30 @@
 		(uuid "b237114a-3316-48d2-a0d5-aebe46a79873")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 200.6818 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SPI3_SCK"
+		(shape input)
+		(at 220.98 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5f15e5b-c968-4144-b2be-64e2c7f55bef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.9761 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4452,9 +4399,33 @@
 			)
 		)
 	)
-	(global_label "I2C1_SCL"
+	(global_label "BARO_CS"
 		(shape input)
-		(at 207.01 120.65 0)
+		(at 127 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d607ea74-ee6b-4b99-bb3a-83a4c7c5f70a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.6086 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SPI3_MISO"
+		(shape input)
+		(at 220.98 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4462,9 +4433,9 @@
 			)
 			(justify left)
 		)
-		(uuid "f74d3bf9-ce97-4a0c-9302-563cd7ba99b9")
+		(uuid "ed243d1c-a183-4938-9ed4-00056d740767")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.7642 120.65 0)
+			(at 233.8228 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4969,84 +4940,6 @@
 			(project "STM32F405_Flight_Controller_Rev2"
 				(path "/35cd59c0-3af5-4f49-8a4d-f1185ab2b827/212ce693-630e-430d-8d32-0a95e9731a5b"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 201.93 133.35 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44aabec3-5f60-429e-8fc5-42ad66dca1a7")
-		(property "Reference" "#PWR037"
-			(at 201.93 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 201.93 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 201.93 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "023497b5-e4e1-43ec-b491-88b455c43d1f")
-		)
-		(instances
-			(project "STM32F405_Flight_Controller_Rev2"
-				(path "/35cd59c0-3af5-4f49-8a4d-f1185ab2b827/212ce693-630e-430d-8d32-0a95e9731a5b"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -6557,85 +6450,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 194.31 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b3f752e3-47f9-40ca-bf80-d8ab80bf2a09")
-		(property "Reference" "R3"
-			(at 192.024 129.54 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 189.484 129.54 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 192.532 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 194.31 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2e1664de-4589-43ad-a264-19882e2f11fe")
-		)
-		(pin "2"
-			(uuid "9a984b65-6deb-4f41-ae7b-07759af0dad7")
-		)
-		(instances
-			(project "STM32F405_Flight_Controller_Rev2"
-				(path "/35cd59c0-3af5-4f49-8a4d-f1185ab2b827/212ce693-630e-430d-8d32-0a95e9731a5b"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 88.9 76.2 0)
 		(unit 1)
@@ -7272,85 +7086,6 @@
 			(project "STM32F405_Flight_Controller_Rev2"
 				(path "/35cd59c0-3af5-4f49-8a4d-f1185ab2b827/212ce693-630e-430d-8d32-0a95e9731a5b"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 201.93 129.54 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fd7ee2c6-d388-4fd7-8968-3786009b11ba")
-		(property "Reference" "R4"
-			(at 204.216 129.54 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 206.756 129.54 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 203.708 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 201.93 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ff688ccf-7765-449d-a010-3114d64e36b6")
-		)
-		(pin "2"
-			(uuid "a39834c7-136d-41f0-b84f-1961fdd64592")
-		)
-		(instances
-			(project "STM32F405_Flight_Controller_Rev2"
-				(path "/35cd59c0-3af5-4f49-8a4d-f1185ab2b827/212ce693-630e-430d-8d32-0a95e9731a5b"
-					(reference "R4")
 					(unit 1)
 				)
 			)

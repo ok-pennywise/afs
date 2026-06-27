@@ -1508,7 +1508,7 @@
 	)
 	(global_label "TIM1_CH2"
 		(shape input)
-		(at 151.13 55.88 0)
+		(at 151.13 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1518,7 +1518,7 @@
 		)
 		(uuid "134d5f5e-e1a9-4ba6-998b-198362755b93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.1261 55.88 0)
+			(at 163.1261 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1580,7 +1580,7 @@
 	)
 	(global_label "TIM1_CH1"
 		(shape input)
-		(at 151.13 53.34 0)
+		(at 151.13 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1590,7 +1590,7 @@
 		)
 		(uuid "2e74c066-88d6-49c8-ac05-52ddc980f0b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.1261 53.34 0)
+			(at 163.1261 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1628,7 +1628,7 @@
 	)
 	(global_label "TIM1_CH3"
 		(shape input)
-		(at 151.13 58.42 0)
+		(at 151.13 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1638,7 +1638,7 @@
 		)
 		(uuid "5f485c08-db1e-4d78-b302-cd5974e74a97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.1261 58.42 0)
+			(at 163.1261 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1700,7 +1700,7 @@
 	)
 	(global_label "TIM1_CH4"
 		(shape input)
-		(at 151.13 60.96 0)
+		(at 151.13 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1710,7 +1710,7 @@
 		)
 		(uuid "7a116d8c-712c-4f4f-9a37-67296fe5aa06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.1261 60.96 0)
+			(at 163.1261 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
