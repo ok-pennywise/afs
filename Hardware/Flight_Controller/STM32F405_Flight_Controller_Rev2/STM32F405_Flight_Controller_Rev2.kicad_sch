@@ -196,6 +196,52 @@
 		)
 	)
 	(sheet
+		(at 110.49 105.41)
+		(size 13.97 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f9e4f6fb-e52f-468c-987a-1d68a788f367")
+		(property "Sheetname" "LED"
+			(at 110.49 104.6984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 110.49 112.3446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32F405_Flight_Controller_Rev2"
+				(path "/35cd59c0-3af5-4f49-8a4d-f1185ab2b827"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 142.875 84.455)
 		(size 17.145 15.875)
 		(exclude_from_sim no)

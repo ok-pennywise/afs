@@ -3102,10 +3102,6 @@
 		(uuid "9dba58de-35d3-4c17-bef2-da4e81800792")
 	)
 	(no_connect
-		(at 127 92.71)
-		(uuid "a4500576-40bf-4e98-8ab7-fe977b582c7d")
-	)
-	(no_connect
 		(at 167.64 125.73)
 		(uuid "a6e44920-9814-45d7-9113-661145919142")
 	)
@@ -3318,6 +3314,16 @@
 			(type default)
 		)
 		(uuid "52a81079-4874-4ea9-890a-c61cb167fd84")
+	)
+	(wire
+		(pts
+			(xy 62.23 92.71) (xy 127 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55135fd3-f66b-4d18-baed-1e7c9c1fe1fd")
 	)
 	(wire
 		(pts
@@ -4444,6 +4450,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "NSTATUS_LED"
+		(shape input)
+		(at 62.23 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eeccc679-069d-4293-b47b-6dcd0fae7d42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.7263 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)

@@ -662,7 +662,7 @@
         "uuid": "35cd59c0-3af5-4f49-8a4d-f1185ab2b827"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR37-39,#PWR44,R3-4,D1-2",
     "variants": []
   },
   "sheets": [
@@ -689,6 +689,10 @@
     [
       "2137e8e5-d2c1-4374-b002-a53a5a270796",
       "Flash"
+    ],
+    [
+      "f9e4f6fb-e52f-468c-987a-1d68a788f367",
+      "LED"
     ]
   ],
   "text_variables": {},
