@@ -513,13 +513,37 @@
         "wire_width": 6
       },
       {
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "name": "3v3",
+        "pcb_color": "rgb(255, 90, 0)",
+        "priority": 3,
         "schematic_color": "rgb(255, 86, 3)",
         "track_width": 0.3,
         "tuning_profile": "",
         "wire_width": 12
+      },
+      {
+        "name": "5V",
+        "pcb_color": "rgb(255, 9, 0)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.8,
+        "tuning_profile": ""
+      },
+      {
+        "name": "Debug",
+        "pcb_color": "rgb(243, 255, 0)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": ""
+      },
+      {
+        "name": "Signals",
+        "pcb_color": "rgb(255, 18, 155)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -529,8 +553,20 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Power",
-        "pattern": ".*(VCAP|\\+3\\.3V|\\+3\\.3VA|VBAT|GND).*"
+        "netclass": "3v3",
+        "pattern": ".*(VCAP|\\+3\\.3V|\\+3\\.3VA|VBAT).*"
+      },
+      {
+        "netclass": "5V",
+        "pattern": ".*(5V).*"
+      },
+      {
+        "netclass": "Signals",
+        "pattern": ".*(SPI|TIM|CS|IMU_INT|OSC|TX|RX|NRST|BOOT|LED).*"
+      },
+      {
+        "netclass": "Debug",
+        "pattern": ".*(SW).*"
       }
     ]
   },
