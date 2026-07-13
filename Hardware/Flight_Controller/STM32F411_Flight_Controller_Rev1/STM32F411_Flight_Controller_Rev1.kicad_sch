@@ -5096,7 +5096,7 @@
 			(uuid "6f504054-e2d5-4b84-ac00-6d01731a982b")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#PWR013")
 					(unit 1)
@@ -5178,7 +5178,7 @@
 			(uuid "d096c8f2-cc8a-47c1-b84d-522252b26dcc")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "C1")
 					(unit 1)
@@ -5257,7 +5257,7 @@
 			(uuid "76066f52-ae41-462d-9e22-e1d0d719f6be")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#PWR07")
 					(unit 1)
@@ -5334,7 +5334,7 @@
 			(uuid "6c8f9f14-6662-4f80-9b5e-9caa9dae5ac5")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "TP13")
 					(unit 1)
@@ -5413,7 +5413,7 @@
 			(uuid "affe8d31-2192-4009-aef5-292cf7826699")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#PWR012")
 					(unit 1)
@@ -5495,7 +5495,7 @@
 			(uuid "37baa324-f2d1-44aa-8e22-bf14552c25d8")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "C5")
 					(unit 1)
@@ -5574,7 +5574,7 @@
 			(uuid "8e09333d-ad94-44a9-a73e-b91dc3282578")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#PWR06")
 					(unit 1)
@@ -5652,7 +5652,7 @@
 			(uuid "51445672-8a17-419e-b75b-0c473d3cd1a6")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#PWR03")
 					(unit 1)
@@ -5728,7 +5728,7 @@
 			)
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "H2")
 					(unit 1)
@@ -5807,7 +5807,7 @@
 			(uuid "3457257e-d757-4c33-9071-028f1c74fdbe")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#PWR017")
 					(unit 1)
@@ -6076,7 +6076,7 @@
 			(uuid "0f8d9a21-7d6a-451c-9791-e7b939d7dafd")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "U1")
 					(unit 1)
@@ -6155,7 +6155,7 @@
 			(uuid "ab32f16a-e3d2-406a-988c-78468803a1a3")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#PWR015")
 					(unit 1)
@@ -6244,7 +6244,7 @@
 			(uuid "372703ca-f675-4b0c-a51d-15a718010a90")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "U3")
 					(unit 1)
@@ -6326,7 +6326,7 @@
 			(uuid "c96df475-f2a8-4bbe-9f2a-8b495589599b")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "C12")
 					(unit 1)
@@ -6406,7 +6406,7 @@
 			(uuid "59d78336-4db5-4aae-bb51-8486d97840dc")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "R3")
 					(unit 1)
@@ -6485,7 +6485,7 @@
 			(uuid "4fbd61f0-072d-46d0-aa2f-2bc68d9a07ec")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#PWR011")
 					(unit 1)
@@ -6562,7 +6562,7 @@
 			(uuid "77a5dd4b-d783-4499-aa8f-2c8fa8697733")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "TP11")
 					(unit 1)
@@ -6639,7 +6639,7 @@
 			(uuid "10cea66e-bdee-445c-9d33-2abdfb806250")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "TP3")
 					(unit 1)
@@ -6716,7 +6716,7 @@
 			(uuid "05d55b07-88dc-453d-a8b0-50063f9fb50c")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "TP2")
 					(unit 1)
@@ -6795,7 +6795,7 @@
 			(uuid "32a4e470-ada4-4ca5-8a9a-fdd376781b99")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "R1")
 					(unit 1)
@@ -6877,7 +6877,7 @@
 			(uuid "b49bbf92-f31e-4813-a08d-e2b6dbc940e0")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "C16")
 					(unit 1)
@@ -6959,7 +6959,7 @@
 			(uuid "17cde3cd-18cb-4d58-8dee-7354b23fc7ef")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "C9")
 					(unit 1)
@@ -7038,7 +7038,7 @@
 			(uuid "f2f9278d-fc53-43ad-bf87-fbb1e706a55c")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "R2")
 					(unit 1)
@@ -7116,7 +7116,7 @@
 			(uuid "49f94237-87b4-4138-8372-78f2b52fccac")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#PWR05")
 					(unit 1)
@@ -7195,7 +7195,7 @@
 			(uuid "f7a4cb00-f51e-4972-b14a-a39d2515b4cc")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#PWR018")
 					(unit 1)
@@ -7277,7 +7277,7 @@
 			(uuid "1348ce17-f923-4937-a5f1-293d7e90cf99")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "C13")
 					(unit 1)
@@ -7357,7 +7357,7 @@
 			(uuid "1421a4f2-3168-4ff0-8ad8-356493037d56")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#PWR020")
 					(unit 1)
@@ -7465,7 +7465,7 @@
 			(uuid "d96e8789-87f1-4631-87fd-e7185fd3ce5c")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "Y1")
 					(unit 1)
@@ -7542,7 +7542,7 @@
 			(uuid "52a2e469-9cab-4c86-8bbb-2e4218d211f7")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "TP5")
 					(unit 1)
@@ -7633,7 +7633,7 @@
 			(uuid "cce94782-ac82-4075-9270-fc74d59125af")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "D2")
 					(unit 1)
@@ -7714,7 +7714,7 @@
 			(uuid "2223317b-6822-4353-9839-2a0ad5dcdc38")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "C11")
 					(unit 1)
@@ -7796,7 +7796,7 @@
 			(uuid "7a0c7ee3-00dc-4c46-a5b1-70771c4bcb71")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "C3")
 					(unit 1)
@@ -7876,7 +7876,7 @@
 			(uuid "42d1cbcf-98a8-4360-ae57-683fa3df53da")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "R4")
 					(unit 1)
@@ -7955,7 +7955,7 @@
 			(uuid "b460f3d1-604f-495a-8344-31de61a2fdd3")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#FLG03")
 					(unit 1)
@@ -8032,7 +8032,7 @@
 			(uuid "345b90e7-b7e7-4c0d-ba35-88d1888adc35")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "TP7")
 					(unit 1)
@@ -8112,7 +8112,7 @@
 			(uuid "9e1a9a37-93d1-42a4-b8d0-b93e86009b01")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "FB1")
 					(unit 1)
@@ -8190,7 +8190,7 @@
 			(uuid "11c9d957-fb9c-495a-9e86-85e0a5ec2474")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#FLG01")
 					(unit 1)
@@ -8267,7 +8267,7 @@
 			(uuid "acdf1370-3c60-4cd5-bf40-02bef730a70a")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "TP8")
 					(unit 1)
@@ -8346,7 +8346,7 @@
 			(uuid "fb573149-355c-4407-9523-32be2d95ae68")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#PWR08")
 					(unit 1)
@@ -8428,7 +8428,7 @@
 			(uuid "b4e01ab3-922c-4daa-98a9-4267b5e01b16")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "C10")
 					(unit 1)
@@ -8507,7 +8507,7 @@
 			(uuid "84721ff3-5821-46cc-826c-d6d95dc1cf64")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#PWR01")
 					(unit 1)
@@ -8589,7 +8589,7 @@
 			(uuid "1185cca2-a347-478d-b5fe-26a6711bd786")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "C6")
 					(unit 1)
@@ -8666,7 +8666,7 @@
 			(uuid "39860a06-d860-4b74-ad81-7185be1ec57f")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "TP1")
 					(unit 1)
@@ -8742,7 +8742,7 @@
 			)
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "H1")
 					(unit 1)
@@ -8824,7 +8824,7 @@
 			(uuid "b1249928-9dee-4707-a1b8-384b47bf54e5")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "C17")
 					(unit 1)
@@ -8900,7 +8900,7 @@
 			)
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "H4")
 					(unit 1)
@@ -8977,7 +8977,7 @@
 			(uuid "53ce2128-5a52-41f6-bbb4-01e863a1e11a")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "TP10")
 					(unit 1)
@@ -9054,7 +9054,7 @@
 			(uuid "0438f3b1-f898-4e94-8e0b-64d27d3c8321")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "TP14")
 					(unit 1)
@@ -9136,7 +9136,7 @@
 			(uuid "61fb6bac-620a-4075-93cc-e45d563f8d8e")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "C4")
 					(unit 1)
@@ -9218,7 +9218,7 @@
 			(uuid "dfebcd38-4ea7-4c67-9871-f3f93fd8e649")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "C14")
 					(unit 1)
@@ -9296,7 +9296,7 @@
 			(uuid "84073aad-91e9-4be3-bd98-b6a99a97e7c7")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#FLG02")
 					(unit 1)
@@ -9375,7 +9375,7 @@
 			(uuid "4f297d14-9e62-4c9e-a0fd-1e4109870334")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#PWR09")
 					(unit 1)
@@ -9452,7 +9452,7 @@
 			(uuid "f4afa80d-515e-4818-ba20-61a2e8301087")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "TP12")
 					(unit 1)
@@ -9528,7 +9528,7 @@
 			)
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "H3")
 					(unit 1)
@@ -9608,7 +9608,7 @@
 			(uuid "873eeba8-80f0-404d-807a-4b74e5e2f020")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#PWR022")
 					(unit 1)
@@ -9690,7 +9690,7 @@
 			(uuid "6143ff19-168b-42e1-b562-cab6eb460875")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "C8")
 					(unit 1)
@@ -9772,7 +9772,7 @@
 			(uuid "364a6ba1-c45e-4b4c-aac3-1511b841a6ba")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "C15")
 					(unit 1)
@@ -10022,7 +10022,7 @@
 			(uuid "eec37f23-53bf-439d-af10-bb798ac3c27c")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "U2")
 					(unit 1)
@@ -10101,7 +10101,7 @@
 			(uuid "a32dd914-9d19-444f-a680-476a34e7853d")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#PWR014")
 					(unit 1)
@@ -10180,7 +10180,7 @@
 			(uuid "2dd7e465-356b-4a92-a966-51e04c849132")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#PWR016")
 					(unit 1)
@@ -10259,7 +10259,7 @@
 			(uuid "afc93973-8f75-4ebf-b3f6-f376d6f87311")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#PWR02")
 					(unit 1)
@@ -10336,7 +10336,7 @@
 			(uuid "7be7cccd-edfa-4753-9ef3-057b00be294f")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "TP6")
 					(unit 1)
@@ -10415,7 +10415,7 @@
 			(uuid "9892a3b3-6715-447c-95a8-2b657851d92b")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#PWR019")
 					(unit 1)
@@ -10492,7 +10492,7 @@
 			(uuid "e0ec67cc-3419-40c9-add6-b9f1f60ddbde")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "TP9")
 					(unit 1)
@@ -10583,7 +10583,7 @@
 			(uuid "708aef4a-a97e-484c-a9a7-34e7687f6124")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "D1")
 					(unit 1)
@@ -10662,7 +10662,7 @@
 			(uuid "f9818401-0b57-4269-a283-33be089ae2ab")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#PWR04")
 					(unit 1)
@@ -10739,7 +10739,7 @@
 			(uuid "d6cae753-9d2f-4dc3-963d-6adc90711852")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "TP4")
 					(unit 1)
@@ -10821,7 +10821,7 @@
 			(uuid "72da5c19-704d-4a0e-8491-2226e2648aec")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "C2")
 					(unit 1)
@@ -10900,7 +10900,7 @@
 			(uuid "38da6027-e43a-4057-9996-c00fad022525")
 		)
 		(instances
-			(project "STM32_Flight_Controller_Rev1"
+			(project "STM32F411_Flight_Controller_Rev1"
 				(path "/1ca9558d-8c38-4114-8a54-b82e8a8973a5"
 					(reference "#PWR010")
 					(unit 1)
