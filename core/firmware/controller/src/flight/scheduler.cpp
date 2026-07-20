@@ -1,55 +1,55 @@
 #include "scheduler.hpp"
 
-bool Pipeline::add_task(Task *task)
-{
-    if (task_count >= MAX_TASKS)
-        return false;
-
-    tasks[task_count++] = task;
-    return true;
-}
-
-bool Scheduler::add_pipeline(Pipeline *pipeline)
+bool Scheduler::add_pipeline(Pipeline *p)
 {
     if (pipeline_count >= MAX_PIPELINES)
         return false;
 
-    pipelines[pipeline_count++] = pipeline;
+    uint8_t position = pipeline_count;
+
+    while (position > 0 &&
+           (pipelines[position - 1]->priority) >
+               (p->priority))
+    {
+        pipelines[position] = pipelines[position - 1];
+        --position;
+    }
+
+    pipelines[position] = p;
+    ++pipeline_count;
+
     return true;
 }
 
-void Scheduler::trigger(Pipeline *pipeline)
+void Scheduler::run()
 {
-    ++pipeline->pending;
-}
-
-void Scheduler::run(uint64_t now_us)
-{
-    for (std::size_t i = 0; i < pipeline_count; ++i)
+    uint32_t current_time_us = 0;
+    for (uint8_t i = 0; i < pipeline_count; ++i)
     {
-        Pipeline *pipeline = pipelines[i];
+        Pipeline *p = pipelines[i];
 
-        while (pipeline->pending > 0)
+        if (p->pending > 0)
         {
-            --pipeline->pending;
+            --p->pending;
+        }
+        else if (p->period_us != 0)
+        {
+            if ((int32_t)(current_time_us - p->next_run_us) < 0)
+                continue;
 
-            for (std::size_t j = 0; j < pipeline->task_count; ++j)
-            {
-                pipeline->tasks[j]->callback();
-            }
+            p->next_run_us += p->period_us;
+        }
+        else
+        {
+            continue;
         }
 
-        if (pipeline->period_us == 0)
-            continue;
-
-        if ((now_us - pipeline->last_run_us) >= pipeline->period_us)
+        for (uint8_t j = 0; j < p->task_count; ++j)
         {
-            pipeline->last_run_us = now_us;
-
-            for (std::size_t j = 0; j < pipeline->task_count; ++j)
-            {
-                pipeline->tasks[j]->callback();
-            }
+            void (*callback)() = p->tasks[j];
+            callback();
         }
     }
 }
+
+void Scheduler::dispatch(Pipeline *p) { p->pending++; }
