@@ -1,9 +1,10 @@
 #include "scheduler.hpp"
+#include "pipeline.hpp"
 
-bool Scheduler::add_pipeline(Pipeline *p)
+uint8_t Scheduler::add_pipeline(Pipeline *p)
 {
     if (pipeline_count >= MAX_PIPELINES)
-        return false;
+        return 0;
 
     uint8_t position = pipeline_count;
 
@@ -18,7 +19,7 @@ bool Scheduler::add_pipeline(Pipeline *p)
     pipelines[position] = p;
     ++pipeline_count;
 
-    return true;
+    return 1;
 }
 
 void Scheduler::run()

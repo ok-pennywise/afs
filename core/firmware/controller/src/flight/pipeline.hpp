@@ -16,7 +16,7 @@ struct Pipeline
 {
     PipelinePriority priority;
 
-    bool add_task(void (*callback)());
+    uint8_t add_task(void (*callback)());
 
     std::atomic<uint8_t> pending{0};
 

@@ -14,7 +14,7 @@ class Scheduler
     uint8_t pipeline_count = 0;
 
 public:
-    bool add_pipeline(Pipeline *p);
+    uint8_t add_pipeline(Pipeline *p);
     void run();
     void dispatch(Pipeline *p);
 };
