@@ -1,20 +1,13 @@
 #pragma once
 
-#include <array>
-#include <atomic>
 #include <cstdint>
-
-enum PipelinePriority : uint8_t
-{
-    CRITICAL,
-    HIGH,
-    NORMAL,
-    LOW
-};
+#include <atomic>
+#include <array>
+#include "priority.hpp"
 
 struct Pipeline
 {
-    PipelinePriority priority;
+    Priority priority;
 
     uint8_t add_task(void (*callback)());
 
@@ -23,6 +16,9 @@ struct Pipeline
     uint32_t next_run_us = 0;
     uint32_t period_us = 0;
 
+    void execute();
+
+private:
     static constexpr uint8_t MAX_TASKS = 8;
 
     std::array<void (*)(), MAX_TASKS> tasks;

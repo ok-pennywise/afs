@@ -1,22 +1,19 @@
 #include "scheduler.hpp"
-#include "pipeline.hpp"
 
 uint8_t Scheduler::add_pipeline(Pipeline *p)
 {
     if (pipeline_count >= MAX_PIPELINES)
         return 0;
 
-    uint8_t position = pipeline_count;
+    uint8_t i = pipeline_count;
 
-    while (position > 0 &&
-           (pipelines[position - 1]->priority) >
-               (p->priority))
+    while (i > 0 && (pipelines[i - 1]->priority) > (p->priority))
     {
-        pipelines[position] = pipelines[position - 1];
-        --position;
+        pipelines[i] = pipelines[i - 1];
+        --i;
     }
 
-    pipelines[position] = p;
+    pipelines[i] = p;
     ++pipeline_count;
 
     return 1;
@@ -29,9 +26,9 @@ void Scheduler::run()
     {
         Pipeline *p = pipelines[i];
 
-        if (p->pending > 0)
+        if (p->pending != 0)
         {
-            --p->pending;
+            p->pending = 0;
         }
         else if (p->period_us != 0)
         {
@@ -44,13 +41,11 @@ void Scheduler::run()
         {
             continue;
         }
-
-        for (uint8_t j = 0; j < p->task_count; ++j)
-        {
-            void (*callback)() = p->tasks[j];
-            callback();
-        }
+        p->execute();
     }
 }
 
-void Scheduler::dispatch(Pipeline *p) { p->pending++; }
+void Scheduler::dispatch(Pipeline *p)
+{
+    p->pending = 1;
+}

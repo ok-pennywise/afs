@@ -2,12 +2,10 @@
 
 #include <array>
 #include <cstdint>
-
 #include "pipeline.hpp"
 
 class Scheduler
 {
-
     static constexpr uint8_t MAX_PIPELINES = 16;
 
     std::array<Pipeline *, MAX_PIPELINES> pipelines;
