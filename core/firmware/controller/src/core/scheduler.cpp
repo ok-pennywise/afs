@@ -1,5 +1,16 @@
 #include "scheduler.hpp"
 
+Scheduler *Scheduler::singleton = nullptr;
+
+Scheduler *Scheduler::instance()
+{
+    if (singleton == nullptr)
+    {
+        singleton = new Scheduler;
+    }
+    return singleton;
+}
+
 uint8_t Scheduler::add_pipeline(Pipeline *p)
 {
     if (pipeline_count >= MAX_PIPELINES)
@@ -7,7 +18,7 @@ uint8_t Scheduler::add_pipeline(Pipeline *p)
 
     uint8_t i = pipeline_count;
 
-    while (i > 0 && (pipelines[i - 1]->priority) > (p->priority))
+    while (i > 0 && pipelines[i - 1]->priority > p->priority)
     {
         pipelines[i] = pipelines[i - 1];
         --i;
@@ -22,9 +33,13 @@ uint8_t Scheduler::add_pipeline(Pipeline *p)
 void Scheduler::run()
 {
     uint32_t current_time_us = 0;
+
     for (uint8_t i = 0; i < pipeline_count; ++i)
     {
         Pipeline *p = pipelines[i];
+
+        if (!p->is_enabled())
+            continue;
 
         if (p->pending != 0)
         {
@@ -41,6 +56,7 @@ void Scheduler::run()
         {
             continue;
         }
+
         p->execute();
     }
 }

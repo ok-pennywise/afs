@@ -19,3 +19,15 @@ void Pipeline::execute()
         callback();
     }
 }
+
+void Pipeline::enable(){
+    enabled = 1;
+}
+
+void Pipeline::disable(){
+    enabled = 0;
+}
+
+bool Pipeline::is_enabled(){
+    return enabled;
+}

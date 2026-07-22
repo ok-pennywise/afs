@@ -17,10 +17,14 @@ struct Pipeline
     uint32_t period_us = 0;
 
     void execute();
+    void disable();
+    void enable();
+    bool is_enabled();
 
 private:
     static constexpr uint8_t MAX_TASKS = 8;
 
     std::array<void (*)(), MAX_TASKS> tasks;
     uint8_t task_count = 0;
+    std::atomic<uint8_t> enabled{1};
 };

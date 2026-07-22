@@ -6,12 +6,18 @@
 
 class Scheduler
 {
+    Scheduler() = default;
+
+    static Scheduler *singleton;
+
     static constexpr uint8_t MAX_PIPELINES = 16;
 
-    std::array<Pipeline *, MAX_PIPELINES> pipelines;
+    std::array<Pipeline *, MAX_PIPELINES> pipelines{};
     uint8_t pipeline_count = 0;
 
 public:
+    static Scheduler *instance();
+
     uint8_t add_pipeline(Pipeline *p);
     void run();
     void dispatch(Pipeline *p);

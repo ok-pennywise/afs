@@ -7,8 +7,8 @@ enum class FaultType
     FLASH_NOT_RESPONDING,
 
     GPS_SIGNAL_LOST,
-    RX_SIGNAL_LOST,
-    
+    RADIO_SIGNAL_LOST,
+
     BATTERY_LOW
 };
 
@@ -16,4 +16,5 @@ struct Fault
 {
     FaultType type;
     Priority priority;
+    
 };
