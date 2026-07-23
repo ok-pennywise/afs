@@ -16,5 +16,4 @@ struct Fault
 {
     FaultType type;
     Priority priority;
-    
 };

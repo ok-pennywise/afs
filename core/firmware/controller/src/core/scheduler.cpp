@@ -14,7 +14,9 @@ Scheduler *Scheduler::instance()
 uint8_t Scheduler::add_pipeline(Pipeline *p)
 {
     if (pipeline_count >= MAX_PIPELINES)
+    {
         return 0;
+    }
 
     uint8_t i = pipeline_count;
 
