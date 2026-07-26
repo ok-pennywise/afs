@@ -3,7 +3,7 @@
 
 void State::init() {
   for (int axis = Axis::X; axis <= Axis::Z; ++axis) {
-      kinematics[axis] = Kinematic();
+    kinematics[axis] = Kinematic{};
   }
 }
 
@@ -12,3 +12,9 @@ void State::reset() {
     k.reset();
   }
 }
+
+void State::arm() { armed = true; }
+
+void State::disarm() { armed = false; }
+
+bool State::is_armed() const { return armed; }

@@ -1,6 +1,6 @@
 #include "pipeline.hpp"
-#include <cstdint>
 #include <array>
+#include <cstdint>
 
 class Scheduler {
 private:
@@ -9,12 +9,11 @@ private:
   Scheduler &operator=(const Scheduler &) = delete;
 
   static constexpr uint8_t MAX_PIPELINES = 32;
-  std::array<Pipeline*, MAX_PIPELINES> pipelines;
+  std::array<Pipeline *, MAX_PIPELINES> pipelines;
   uint8_t pipeline_count = 0;
 
 public:
   uint8_t add_pipeline(Pipeline *p);
-  void dispatch(Pipeline *p);
   void run();
 
   static Scheduler *instance() {

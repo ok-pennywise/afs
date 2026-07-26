@@ -19,24 +19,23 @@ uint8_t Scheduler::add_pipeline(Pipeline *p) {
 void Scheduler::run() {
   uint32_t current_us = 0; // Placeholder
 
-  for (uint8_t i = 0; i < pipeline_count; i++) {
+  for (uint8_t i = 0; i < pipeline_count; ++i) {
     Pipeline *p = pipelines[i];
+
     if (!p->is_enabled()) {
       continue;
     }
 
     if (p->is_pending()) {
       p->clear();
+    } else if (static_cast<int32_t>(current_us - p->next_run_us) < 0) {
+      continue;
     }
 
-    else if (static_cast<int32_t>(p->next_run_us - current_us) < 0) {
+    if (p->period_us != 0) {
       p->next_run_us += p->period_us;
-    } else {
-      continue;
     }
 
     p->execute();
   }
 }
-
-void Scheduler::dispatch(Pipeline *p) { p->schedule(); }

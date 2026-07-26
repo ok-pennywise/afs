@@ -13,13 +13,16 @@ struct Pipeline {
 
   void enable();
   void disable();
+
   void execute();
+
   void schedule();
   void clear();
 
-  uint8_t is_enabled();
-  uint8_t is_pending();
-  uint8_t add_task(void (*callback)());
+  bool is_enabled();
+  bool is_pending();
+
+  bool add_task(void (*callback)());
 
 private:
   static constexpr uint8_t MAX_TASKS = 8;
@@ -27,6 +30,6 @@ private:
 
   std::array<void (*)(), MAX_TASKS> tasks;
 
-  std::atomic<uint8_t> enabled{1};
-  std::atomic<uint8_t> pending{0};
+  std::atomic<bool> enabled{true};
+  std::atomic<bool> pending{false};
 };
