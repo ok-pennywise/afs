@@ -1,3 +1,5 @@
+#pragma once
+
 struct Kinematic {
   float gyro;
   float gyro_t_minus_1;
@@ -22,4 +24,7 @@ struct Kinematic {
   float acceleration_delta() const;
   float velocity_delta() const;
   float position_delta() const;
+
+  private:
+      void set(float& current, float& t_minus_1, float& value);
 };
