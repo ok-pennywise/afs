@@ -9,7 +9,7 @@ bool Scheduler::add_pipeline(Pipeline *pipeline) {
     return false;
   }
 
-  pipelines[++count] = pipeline;
+  pipelines[count++] = pipeline;
   std::sort(pipelines.begin(), pipelines.begin() + count,
             [](const Pipeline *a, const Pipeline *b) {
               return a->priority < b->priority;
@@ -30,11 +30,12 @@ void Scheduler::run() {
 
     if (p->is_pending()) {
       p->clear();
-    } else if (int32_t(current_us - p->next_run_us) < 0) {
+    } else if (current_us - p->next_run_us >= 0) {
       p->next_run_us += p->period_us;
     } else {
       continue;
     }
+
     p->execute();
   }
 }

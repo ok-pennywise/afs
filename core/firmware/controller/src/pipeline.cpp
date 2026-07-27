@@ -1,22 +1,24 @@
 #include "pipeline.hpp"
 #include <cstddef>
+#include <cstdint>
 
 bool Pipeline::add_task(void (*callback)()) {
   if (count >= MAX_TASK_COUNT) {
     return false;
   }
-  tasks[++count] = callback;
+  tasks[count++] = callback;
   return true;
 }
 
 void Pipeline::execute() {
   for (size_t i = 0; i < count; i++) {
-    void (*callback)() = tasks[i];
-    callback();
+    tasks[i]();
   }
 }
 
-void Pipeline::set_frequency(float hz) { period_us = 1e6 / hz; }
+void Pipeline::set_frequency(float hz) {
+  period_us = static_cast<uint32_t>(1000000.0f / hz);
+}
 
 void Pipeline::schedule() { pending = true; }
 
