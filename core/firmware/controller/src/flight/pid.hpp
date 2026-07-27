@@ -22,7 +22,7 @@ public:
 
   explicit PID(const PIDConfig &config);
 
-  float compute(float setpoint, float measurement, float dt);
+  float compute(float setpoint, float feedback, float dt);
 
   void reset();
 };

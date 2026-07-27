@@ -2,12 +2,12 @@
 
 void PID::reset() { state.integral = state.error = 0.0f; }
 
-float PID::compute(float setpoint, float measurement, float dt) {
+float PID::compute(float setpoint, float feedback, float dt) {
   if (dt <= 0.0f) {
     return 0.0f;
   }
 
-  float error = setpoint - measurement;
+  float error = setpoint - feedback;
 
   float p_term = config.kp * error;
 
