@@ -1,5 +1,7 @@
 #pragma once
 
+#include "sample.hpp"
+
 struct PIDConfig {
   float kp;
   float ki;
@@ -9,15 +11,7 @@ struct PIDConfig {
   float integral_limit;
 };
 
-class PID {
-  struct PIDState {
-    float integral;
-    float error;
-  };
-
-  PIDState state;
-
-public:
+struct PID {
   PIDConfig config;
 
   explicit PID(const PIDConfig &config);
@@ -25,4 +19,12 @@ public:
   float compute(float setpoint, float feedback, float dt);
 
   void reset();
+
+private:
+  struct PIDState {
+    Sample integral = Sample{};
+    Sample feedback = Sample{};  
+  };
+
+  PIDState state;
 };

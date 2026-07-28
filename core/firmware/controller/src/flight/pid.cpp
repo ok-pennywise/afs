@@ -1,6 +1,8 @@
 #include "pid.hpp"
 
-void PID::reset() { state.integral = state.error = 0.0f; }
+#include <algorithm>
+
+void PID::reset() { state = PIDState{}; }
 
 float PID::compute(float setpoint, float feedback, float dt) {
   if (dt <= 0.0f) {
@@ -11,31 +13,14 @@ float PID::compute(float setpoint, float feedback, float dt) {
 
   float p_term = config.kp * error;
 
-  state.integral += error * dt;
-
-  if (state.integral > config.integral_limit) {
-    state.integral = config.integral_limit;
-  }
-
-  if (state.integral < -config.integral_limit) {
-    state.integral = -config.integral_limit;
-  }
-
-  float i_term = config.ki * state.integral;
-
-  float d_term = config.kd * (error - state.error) / dt;
-
-  state.error = error;
+  state.integral.accumulate(error * dt);
+  state.integral.clamp(-config.integral_limit, config.integral_limit);
+  float i_term = config.ki * state.integral.value();
   
+  state.feedback.sample(feedback);
+  float d_term = -config.kd * state.feedback.delta() / dt;
+
   float output = p_term + i_term + d_term;
 
-  if (output > config.output_limit) {
-    output = config.output_limit;
-  }
-
-  if (output < -config.output_limit) {
-    output = -config.output_limit;
-  }
-
-  return output;
+  return std::clamp(output, -config.output_limit, config.output_limit);
 }
