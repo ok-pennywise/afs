@@ -8,7 +8,7 @@ struct Scheduler {
   bool add_pipeline(Pipeline *pipeline);
   void run();
 
-  static Scheduler *instance();
+  static Scheduler& instance();
 
 private:
   Scheduler() = default;

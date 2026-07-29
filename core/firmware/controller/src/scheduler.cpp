@@ -52,7 +52,7 @@ void Scheduler::run() {
   }
 }
 
-Scheduler *Scheduler::instance() {
+Scheduler &Scheduler::instance() {
   static Scheduler scheduler;
-  return &scheduler;
+  return scheduler;
 }

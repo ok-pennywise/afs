@@ -1,26 +1,25 @@
 #pragma once
 
+#include <cstdint>
+
 struct Sample {
-  Sample();
-  
-  void sample(float value);
-  void sample(float value, float timestamp);
+  void sample(float v);
+  void sample(float v, uint32_t timestamp);
 
-  void accumulate(float value);
-  void accumulate(float value, float timestamp);
-
-  void clamp(float min, float max);
+  void accumulate(float v);
+  void accumulate(float v, uint32_t timestamp);
 
   void reset();
 
-  float delta() const;
-  float dt() const;
-  float value() const;
-
+  float value();
+  float delta();
+  uint32_t dt();
+  
+  
 private:
-  float t = 0.0f;
-  float t_minus_1 = 0.0f;
+  float t;
+  float t_minus_1;
 
-  float timestamp_t = 0.0f;
-  float timestamp_t_minus_1 = 0.0f;
+  uint32_t timestamp_t;
+  uint32_t timestamp_t_minus_1;
 };

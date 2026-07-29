@@ -1,35 +1,30 @@
 #include "sample.hpp"
+#include <cstdint>
 
-#include <algorithm>
-
-Sample::Sample() { reset(); }
-
-void Sample::sample(float value) {
+void Sample::sample(float v) {
   t_minus_1 = t;
-  t = value;
+  t = v;
 }
 
-void Sample::sample(float value, float timestamp) {
-  sample(value);
+void Sample::sample(float v, uint32_t timestamp) {
+  sample(v);
   timestamp_t_minus_1 = timestamp_t;
   timestamp_t = timestamp;
 }
 
-void Sample::accumulate(float value) { sample(t + value); }
-
-void Sample::accumulate(float value, float timestamp) {
-  sample(t + value, timestamp);
-}
-
-void Sample::clamp(float min, float max) { t = std::clamp(t, min, max); }
-
 void Sample::reset() {
   t = t_minus_1 = 0.0f;
-  timestamp_t = timestamp_t_minus_1 = 0.0f;
+  timestamp_t = timestamp_t_minus_1 = 0;
 }
 
-float Sample::delta() const { return t - t_minus_1; }
+void Sample::accumulate(float v) { sample(t + v); }
 
-float Sample::dt() const { return timestamp_t - timestamp_t_minus_1; }
+void Sample::accumulate(float v, uint32_t timestamp) {
+  sample(t + v, timestamp);
+}
 
-float Sample::value() const { return t; }
+float Sample::value() { return t; }
+
+float Sample::delta() { return t - t_minus_1; }
+
+uint32_t Sample::dt() { return timestamp_t - timestamp_t_minus_1; }

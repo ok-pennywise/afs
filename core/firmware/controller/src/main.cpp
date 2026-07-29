@@ -1,7 +1,12 @@
-#include "scheduler.hpp"
-#include <iostream>
+#include "flight/pid.hpp"
 
-int main(){
-  std::cout << Scheduler::instance() << "\n";
-  std::cout << Scheduler::instance() << "\n";
+int main() {
+
+  PID{PIDConfig{
+      .KP = 1.0f,
+      .KI = 0.08f,
+      .KD = 1.01f,
+      .output_max = 400,
+      .integral_max = 400,
+  }};
 }
