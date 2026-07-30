@@ -5,9 +5,9 @@
 	(uuid "1a158bd3-4e42-48e6-b85b-7878855bddf4")
 	(paper "A4")
 	(title_block
-		(title "Inertial Mesurement Unit")
+		(title "STM32 Flight Controller")
 		(date "2026-07-16")
-		(rev "1")
+		(rev "a")
 		(company "Airframe Studios")
 	)
 	(lib_symbols
@@ -1188,7 +1188,7 @@
 			(uuid "52e4cd00-88c8-471f-86ac-e4fd8ee6193b")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/942cf73f-e9b8-4757-9aa0-831e15877b5f"
 					(reference "#PWR013")
 					(unit 1)
@@ -1270,7 +1270,7 @@
 			(uuid "e3e08382-13f6-406c-a721-b95d8fe24a38")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/942cf73f-e9b8-4757-9aa0-831e15877b5f"
 					(reference "C16")
 					(unit 1)
@@ -1348,7 +1348,7 @@
 			(uuid "493e40a6-eb6f-4366-9342-d35e8e0c4081")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/942cf73f-e9b8-4757-9aa0-831e15877b5f"
 					(reference "#PWR012")
 					(unit 1)
@@ -1430,7 +1430,7 @@
 			(uuid "848d2ae2-5ac8-439c-94a0-7c070784826b")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/942cf73f-e9b8-4757-9aa0-831e15877b5f"
 					(reference "C15")
 					(unit 1)
@@ -1509,7 +1509,7 @@
 			(uuid "62da884a-5e52-4d5f-b461-af7813b44a06")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/942cf73f-e9b8-4757-9aa0-831e15877b5f"
 					(reference "#PWR016")
 					(unit 1)
@@ -1588,7 +1588,7 @@
 			(uuid "1101397d-bae2-47b6-84af-361cdaf6dda5")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/942cf73f-e9b8-4757-9aa0-831e15877b5f"
 					(reference "#PWR014")
 					(unit 1)
@@ -1670,7 +1670,7 @@
 			(uuid "8c350496-b56a-4bb3-94a9-ae274323f520")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/942cf73f-e9b8-4757-9aa0-831e15877b5f"
 					(reference "C14")
 					(unit 1)
@@ -1920,7 +1920,7 @@
 			(uuid "1cdf4b1a-6bc4-4c65-a373-15a20e2864a3")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/942cf73f-e9b8-4757-9aa0-831e15877b5f"
 					(reference "U2")
 					(unit 1)
@@ -1998,7 +1998,7 @@
 			(uuid "1b2ccdd6-e075-4232-8654-8e2f4d5b345b")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/942cf73f-e9b8-4757-9aa0-831e15877b5f"
 					(reference "#PWR015")
 					(unit 1)

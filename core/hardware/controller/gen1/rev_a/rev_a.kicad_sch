@@ -7,7 +7,7 @@
 	(title_block
 		(title "STM32 Flight Controller")
 		(date "2026-07-16")
-		(rev "1")
+		(rev "a")
 		(company "Airframe Studios")
 	)
 	(lib_symbols
@@ -369,7 +369,7 @@
 			(uuid "6313db2f-97b6-4206-a07c-09a206016785")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05"
 					(reference "H4")
 					(unit 1)
@@ -448,7 +448,7 @@
 			(uuid "7f2e2d6f-2404-4a69-be1d-3a64e4925867")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05"
 					(reference "#PWR031")
 					(unit 1)
@@ -527,7 +527,7 @@
 			(uuid "a314e681-cada-4dde-8394-57b65dcebf1a")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05"
 					(reference "H2")
 					(unit 1)
@@ -606,7 +606,7 @@
 			(uuid "c78ccfed-8ec4-4e25-93e8-4ce8bdf46664")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05"
 					(reference "H1")
 					(unit 1)
@@ -685,7 +685,7 @@
 			(uuid "39f001a3-1061-4dfd-81aa-34cffda5b476")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05"
 					(reference "H3")
 					(unit 1)
@@ -732,7 +732,7 @@
 			)
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05"
 					(page "2")
 				)
@@ -778,7 +778,7 @@
 			)
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05"
 					(page "6")
 				)
@@ -824,7 +824,7 @@
 			)
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05"
 					(page "5")
 				)
@@ -870,7 +870,7 @@
 			)
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05"
 					(page "3")
 				)
@@ -916,7 +916,7 @@
 			)
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05"
 					(page "4")
 				)

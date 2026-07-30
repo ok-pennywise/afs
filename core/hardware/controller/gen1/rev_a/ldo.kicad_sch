@@ -5,9 +5,9 @@
 	(uuid "f1edb141-4551-4418-8fdd-ad775b089bff")
 	(paper "A4")
 	(title_block
-		(title "Linear Dropout Regulator")
+		(title "STM32 Flight Controller")
 		(date "2026-07-16")
-		(rev "1")
+		(rev "a")
 		(company "Airframe Studios")
 	)
 	(lib_symbols
@@ -1053,7 +1053,7 @@
 			(uuid "89ff33a2-26f7-43ad-8e40-683c1d64b48c")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/ea603c4a-bc0e-4c65-a84d-4ab00c0eb11e"
 					(reference "C17")
 					(unit 1)
@@ -1131,7 +1131,7 @@
 			(uuid "1a898037-e7a7-4388-b458-5e785eb1164b")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/ea603c4a-bc0e-4c65-a84d-4ab00c0eb11e"
 					(reference "#FLG02")
 					(unit 1)
@@ -1209,7 +1209,7 @@
 			(uuid "3fe522ff-1aea-4b4b-b2ae-da0ddb16dad4")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/ea603c4a-bc0e-4c65-a84d-4ab00c0eb11e"
 					(reference "#PWR017")
 					(unit 1)
@@ -1298,7 +1298,7 @@
 			(uuid "f1f80fb1-4da8-4207-9fa3-7819684787f4")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/ea603c4a-bc0e-4c65-a84d-4ab00c0eb11e"
 					(reference "U3")
 					(unit 1)
@@ -1380,7 +1380,7 @@
 			(uuid "ef8ff895-d31a-4f63-85ae-f2539b44b53b")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/ea603c4a-bc0e-4c65-a84d-4ab00c0eb11e"
 					(reference "C18")
 					(unit 1)
@@ -1458,7 +1458,7 @@
 			(uuid "9a7655fe-e0bb-42ae-b8a8-4d6f82647970")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/ea603c4a-bc0e-4c65-a84d-4ab00c0eb11e"
 					(reference "#PWR018")
 					(unit 1)
@@ -1536,7 +1536,7 @@
 			(uuid "23045ab2-9f75-4a2c-9654-208baafe28af")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/ea603c4a-bc0e-4c65-a84d-4ab00c0eb11e"
 					(reference "#PWR019")
 					(unit 1)

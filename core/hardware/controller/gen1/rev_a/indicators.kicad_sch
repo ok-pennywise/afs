@@ -5,8 +5,9 @@
 	(uuid "b6dea3f1-b931-4f71-9593-1d34b0199c89")
 	(paper "A4")
 	(title_block
+		(title "STM32 Flight Controller")
 		(date "2026-07-16")
-		(rev "1")
+		(rev "a")
 		(company "Airframe Studios")
 	)
 	(lib_symbols
@@ -702,7 +703,7 @@
 			(uuid "868be176-0776-4e81-9e96-2662f1a4ef40")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/457fd25a-2825-42bb-868f-09a488d7f084"
 					(reference "R3")
 					(unit 1)
@@ -780,7 +781,7 @@
 			(uuid "4e83be71-71f1-4724-9a00-0d45a15e6a7b")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/457fd25a-2825-42bb-868f-09a488d7f084"
 					(reference "#PWR022")
 					(unit 1)
@@ -871,7 +872,7 @@
 			(uuid "e854aafa-b92c-44d9-87ab-4c1145b4a3fa")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/457fd25a-2825-42bb-868f-09a488d7f084"
 					(reference "D2")
 					(unit 1)
@@ -950,7 +951,7 @@
 			(uuid "138123ec-86a1-4477-bf94-bd422d79fa14")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/457fd25a-2825-42bb-868f-09a488d7f084"
 					(reference "#PWR021")
 					(unit 1)
@@ -1028,7 +1029,7 @@
 			(uuid "0b6c2927-3fab-4b7f-9bbb-3e32f855f0e8")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/457fd25a-2825-42bb-868f-09a488d7f084"
 					(reference "#PWR020")
 					(unit 1)
@@ -1119,7 +1120,7 @@
 			(uuid "1b3a993b-f5ba-4013-9f1e-4f5a14886f74")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/457fd25a-2825-42bb-868f-09a488d7f084"
 					(reference "D1")
 					(unit 1)
@@ -1199,7 +1200,7 @@
 			(uuid "0537fd0d-7119-434d-b88c-4a0721c059bc")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/457fd25a-2825-42bb-868f-09a488d7f084"
 					(reference "R4")
 					(unit 1)

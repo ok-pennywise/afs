@@ -5,9 +5,9 @@
 	(uuid "c18fcbb4-59c7-4cde-bb3d-31b2c7e01136")
 	(paper "A4")
 	(title_block
-		(title "Connectors")
+		(title "STM32 Flight Controller")
 		(date "2026-07-16")
-		(rev "1")
+		(rev "a")
 		(company "Airframe Studios")
 	)
 	(lib_symbols
@@ -1628,7 +1628,7 @@
 			(uuid "7ca475df-9461-492b-8438-175b633ca9d3")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/5b603b15-42d5-42fb-8006-eb9b8ea2f01e"
 					(reference "J2")
 					(unit 1)
@@ -1706,7 +1706,7 @@
 			(uuid "b251dd47-bb89-4365-8900-94d075de3375")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/5b603b15-42d5-42fb-8006-eb9b8ea2f01e"
 					(reference "#PWR023")
 					(unit 1)
@@ -1785,7 +1785,7 @@
 			(uuid "4fe13d6f-95f1-42cb-bce2-0c6c3257493e")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/5b603b15-42d5-42fb-8006-eb9b8ea2f01e"
 					(reference "#PWR024")
 					(unit 1)
@@ -1864,7 +1864,7 @@
 			(uuid "c3c09cf4-6520-4d90-90a4-28518805f349")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/5b603b15-42d5-42fb-8006-eb9b8ea2f01e"
 					(reference "#PWR029")
 					(unit 1)
@@ -1942,7 +1942,7 @@
 			(uuid "ebc51d85-ae8d-457d-8ec5-45546de9308d")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/5b603b15-42d5-42fb-8006-eb9b8ea2f01e"
 					(reference "#PWR025")
 					(unit 1)
@@ -2021,7 +2021,7 @@
 			(uuid "e9fe6341-91ac-43c7-b566-19b95b6d8021")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/5b603b15-42d5-42fb-8006-eb9b8ea2f01e"
 					(reference "#PWR030")
 					(unit 1)
@@ -2115,7 +2115,7 @@
 			(uuid "3430e4c5-fe3c-4b51-9882-5fb3c9867726")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/5b603b15-42d5-42fb-8006-eb9b8ea2f01e"
 					(reference "J1")
 					(unit 1)
@@ -2194,7 +2194,7 @@
 			(uuid "2bc02f2b-8995-4641-b00d-befd3168af20")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/5b603b15-42d5-42fb-8006-eb9b8ea2f01e"
 					(reference "#PWR026")
 					(unit 1)
@@ -2285,7 +2285,7 @@
 			(uuid "99738ed7-d900-4288-a791-e8c053b2696a")
 		)
 		(instances
-			(project "rev1"
+			(project "rev_a"
 				(path "/856cb9c5-49b0-4b03-8864-1f9df9df9b05/5b603b15-42d5-42fb-8006-eb9b8ea2f01e"
 					(reference "J3")
 					(unit 1)
