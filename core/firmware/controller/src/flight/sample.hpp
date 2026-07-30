@@ -15,11 +15,10 @@ struct Sample {
   float delta();
   uint32_t dt();
   
-  
 private:
-  float t;
-  float t_minus_1;
+  float t = 0.0f;
+  float t_minus_1 = 0.0f;
 
-  uint32_t timestamp_t;
-  uint32_t timestamp_t_minus_1;
+  uint32_t timestamp_t = 0;
+  uint32_t timestamp_t_minus_1 = 0; 
 };

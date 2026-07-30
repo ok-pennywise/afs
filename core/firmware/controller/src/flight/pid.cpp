@@ -1,11 +1,16 @@
 #include "pid.hpp"
 #include <algorithm>
+#include <cstdint>
 
 void PID::reset() { state = State{}; }
 
 PID::PID(PIDConfig config) { config = config; }
 
-float PID::compute(float setpoint, float feedback, float dt) {
+float PID::compute(float setpoint, float feedback, uint32_t dt) {
+  if (dt < 0) {
+    return 0.0f;
+  }
+
   float error = setpoint - feedback;
 
   float p_term = config.KP * error;

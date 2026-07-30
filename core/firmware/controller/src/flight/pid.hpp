@@ -1,6 +1,7 @@
 #pragma once
 
 #include "sample.hpp"
+#include <cstdint>
 
 struct PIDConfig {
   float KP;
@@ -16,7 +17,7 @@ struct PID {
 
   explicit PID(PIDConfig config);
 
-  float compute(float setpoint, float feedback, float dt);
+  float compute(float setpoint, float feedback, uint32_t dt);
   void reset();
 
 private:
