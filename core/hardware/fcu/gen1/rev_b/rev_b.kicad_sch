@@ -1,0 +1,112 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "870fd4f9-9865-4e71-aa84-a035dd3c54f3")
+	(paper "A4")
+	(title_block
+		(title "Flight Controller Unit")
+		(date "2026-07-31")
+		(rev "b")
+		(company "Airframe Studios")
+	)
+	(lib_symbols)
+	(sheet
+		(at 172.72 58.42)
+		(size 20.32 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cf94fe61-c3dd-43ae-90df-1929d1207256")
+		(property "Sheetname" "LDO"
+			(at 172.72 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ldo.kicad_sch"
+			(at 172.72 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rev_b"
+				(path "/870fd4f9-9865-4e71-aa84-a035dd3c54f3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 58.42)
+		(size 39.37 78.74)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d957c10c-c077-492d-9a96-f5947b1f6c6e")
+		(property "Sheetname" "MCU"
+			(at 130.81 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 130.81 137.7446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rev_b"
+				(path "/870fd4f9-9865-4e71-aa84-a035dd3c54f3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

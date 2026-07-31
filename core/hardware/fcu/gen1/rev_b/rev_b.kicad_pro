@@ -41,7 +41,7 @@
         "pads": {
           "drill": 0.8,
           "height": 1.27,
-          "width": 2.54
+          "width": 1.27
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.15,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.25,
+          "thermal_relief_spoke_width": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -76,12 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "unconnected_items|148907499|82687501|F.Cu|4|222794f0-0e69-466d-a76a-8d3bca8b4ffe|ccede3c1-5bfd-49c2-9e8d-b3dcc121c789",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -151,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -218,7 +213,7 @@
         0.0,
         0.25,
         0.3,
-        0.6
+        0.8
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -261,7 +256,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "a"
+      "sch_revision": "b"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -509,14 +504,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "rev_a.kicad_pro",
+    "filename": "rev_b.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -534,34 +529,13 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.1,
-        "name": "3v3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgb(255, 154, 0)",
-        "track_width": 0.3,
-        "tuning_profile": "",
-        "wire_width": 12
-      },
-      {
-        "clearance": 0.1,
-        "name": "5v",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgb(255, 34, 0)",
-        "track_width": 0.6,
-        "tuning_profile": "",
-        "wire_width": 24
-      },
-      {
-        "clearance": 0.1,
-        "name": "Signals",
+        "bus_width": 12,
+        "name": "3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgb(0, 179, 255)",
-        "track_width": 0.25,
-        "tuning_profile": "",
-        "wire_width": 10
+        "schematic_color": "rgb(255, 60, 0)",
+        "track_width": 0.3,
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -571,52 +545,12 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "3v3",
+        "netclass": "3V3",
         "pattern": "*3.3V*"
       },
       {
-        "netclass": "5v",
-        "pattern": "*5V*"
-      },
-      {
-        "netclass": "Signals",
-        "pattern": "*SPI*"
-      },
-      {
-        "netclass": "Signals",
-        "pattern": "*IMU*"
-      },
-      {
-        "netclass": "Signals",
-        "pattern": "*X*"
-      },
-      {
-        "netclass": "3v3",
+        "netclass": "3V3",
         "pattern": "*VCAP*"
-      },
-      {
-        "netclass": "Signals",
-        "pattern": "*HSE*"
-      },
-      {
-        "netclass": "Signals",
-        "pattern": "*SW*"
-      },
-      {
-        "netclass": "Signals",
-        "pattern": "*TIM*"
-      },
-      {
-        "netclass": "Signals",
-        "pattern": "*NRST*"
-      },
-      {
-        "netclass": "Signals",
-        "pattern": "*BOOT*"
-      },
-      {
-        "netclass": "Signals",
-        "pattern": "*NSTATUS_LED*"
       }
     ]
   },
@@ -690,6 +624,18 @@
         },
         {
           "group_by": true,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Position Files",
+          "name": "${EXCLUDE_FROM_POS_FILES}",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -744,38 +690,26 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "rev_a.kicad_sch",
-        "name": "rev_a",
-        "uuid": "856cb9c5-49b0-4b03-8864-1f9df9df9b05"
+        "filename": "rev_b.kicad_sch",
+        "name": "rev_b",
+        "uuid": "870fd4f9-9865-4e71-aa84-a035dd3c54f3"
       }
     ],
-    "used_designators": "H1-5,#FLG1-3,J1-4,#PWR1-31,D1-2,FB1,C1-18,R1-4,Y1,U1-4",
+    "used_designators": "U1-2,Y1,R1-2,FB1,C1-15,#PWR1-15,#FLG1-3,H1-4",
     "variants": []
   },
   "sheets": [
     [
-      "856cb9c5-49b0-4b03-8864-1f9df9df9b05",
-      "rev_a"
+      "870fd4f9-9865-4e71-aa84-a035dd3c54f3",
+      "rev_b"
     ],
     [
-      "2582fd21-f50e-4c55-ba71-ea884cc69fab",
+      "d957c10c-c077-492d-9a96-f5947b1f6c6e",
       "MCU"
     ],
     [
-      "942cf73f-e9b8-4757-9aa0-831e15877b5f",
-      "IMU"
-    ],
-    [
-      "ea603c4a-bc0e-4c65-a84d-4ab00c0eb11e",
+      "cf94fe61-c3dd-43ae-90df-1929d1207256",
       "LDO"
-    ],
-    [
-      "5b603b15-42d5-42fb-8006-eb9b8ea2f01e",
-      "Connectors"
-    ],
-    [
-      "457fd25a-2825-42bb-868f-09a488d7f084",
-      "Indicators"
     ]
   ],
   "text_variables": {},
