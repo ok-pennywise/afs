@@ -3854,7 +3854,7 @@
 			)
 		)
 	)
-	(global_label "IMU_INT"
+	(global_label "SPI_IMU_INT"
 		(shape input)
 		(at 168.91 60.96 0)
 		(fields_autoplaced yes)
@@ -3866,7 +3866,7 @@
 		)
 		(uuid "5f56f8f1-3607-48c3-b492-dfe566f901f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.1524 60.96 0)
+			(at 183.2043 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4214,7 +4214,7 @@
 			)
 		)
 	)
-	(global_label "IMU_CS"
+	(global_label "SPI_IMU_CS"
 		(shape input)
 		(at 168.91 96.52 0)
 		(fields_autoplaced yes)
@@ -4226,7 +4226,7 @@
 		)
 		(uuid "ed865b59-0004-4916-ba9f-cc9c6b279a2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.729 96.52 0)
+			(at 182.7809 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
