@@ -1,2 +1,104 @@
+# ==========================================================
+# General
+# ==========================================================
+
 .DS_Store
+Thumbs.db
+
+# Editor history
 .history/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+
+# ==========================================================
+# Firmware
+# ==========================================================
+
+# Common build directories
+build/
+Build/
+Debug/
+Release/
+cmake-build-*/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+
+# Ninja / Make
+.ninja_*
+build.ninja
+Makefile
+
+# Object files
+*.o
+*.obj
+*.d
+
+# Libraries
+*.a
+*.lib
+
+# Executables
+*.elf
+*.axf
+*.out
+*.bin
+*.hex
+*.uf2
+
+# Linker maps
+*.map
+
+# Misc
+*.lst
+
+# ==========================================================
+# Hardware (KiCad)
+# ==========================================================
+
+# Local workspace settings
+*.kicad_prl
+fp-info-cache
+
+# Lock files
+*.lck
+
+# Backups
+*-backups/
+*.bak
+
+# Autosave
+_autosave-*
+
+# Generated outputs
+*.net
+*.gbr
+*.gbrjob
+*.drl
+*.pos
+*.rpt
+*.ipc
+*.tmp
+
+# BOM / XML exports (uncomment if generated)
+# *.csv
+# *.xml
+
+# ==========================================================
+# Logs
+# ==========================================================
+
+*.log
