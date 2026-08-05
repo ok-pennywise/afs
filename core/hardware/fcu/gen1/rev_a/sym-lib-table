@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "AFS_Symbols") (type "KiCad") (uri "/Users/sourya/Developer/afs/core/hardware/libraries/symbols") (options "") (descr ""))
+)

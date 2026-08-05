@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "AFS_Footprints") (type "KiCad") (uri "/Users/sourya/Developer/afs/core/hardware/libraries/footprints") (options "") (descr ""))
+)
