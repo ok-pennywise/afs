@@ -2,9 +2,199 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 91607daa-f95a-42b2-9a82-aba2b313bc70)
+	(uuid "91607daa-f95a-42b2-9a82-aba2b313bc70")
 	(paper "A4")
+	(title_block
+		(title "Flight Controller Unit")
+		(date "2026-08-05")
+		(rev "a")
+		(company "Airframe Studios")
+	)
 	(lib_symbols)
+	(sheet
+		(at 168.91 59.69)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4a0b6215-56fa-4f7c-9ac5-a9cdf6f10c7d")
+		(property "Sheetname" "IMU"
+			(at 168.91 58.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu.kicad_sch"
+			(at 168.91 71.7046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rev_a"
+				(path "/91607daa-f95a-42b2-9a82-aba2b313bc70"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 76.2)
+		(size 12.7 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9cd1e848-3b39-4144-9263-490a676bba74")
+		(property "Sheetname" "LDO"
+			(at 168.91 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ldo.kicad_sch"
+			(at 168.91 85.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rev_a"
+				(path "/91607daa-f95a-42b2-9a82-aba2b313bc70"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 90.17)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c8b83238-c559-456d-a9d5-b8cc10e3ddc2")
+		(property "Sheetname" "Connectors"
+			(at 168.91 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 168.91 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rev_a"
+				(path "/91607daa-f95a-42b2-9a82-aba2b313bc70"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 59.69)
+		(size 31.75 69.85)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d8610c9b-d46a-4ad6-abbd-927f542b976f")
+		(property "Sheetname" "MCU"
+			(at 134.62 58.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 134.62 130.1246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rev_a"
+				(path "/91607daa-f95a-42b2-9a82-aba2b313bc70"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
