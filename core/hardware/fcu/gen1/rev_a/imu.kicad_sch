@@ -1022,7 +1022,7 @@
 		)
 		(uuid "ea149587-5913-488a-a417-e16a186fcc31")
 	)
-	(global_label "SPI_IMU_INT"
+	(global_label "SPI1_IMU_INT"
 		(shape input)
 		(at 168.91 88.9 0)
 		(fields_autoplaced yes)
@@ -1034,7 +1034,7 @@
 		)
 		(uuid "2cd455fc-1406-4f18-84a1-b2c876eede92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.2043 88.9 0)
+			(at 184.4138 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1046,7 +1046,7 @@
 			)
 		)
 	)
-	(global_label "SPI1_MOSI"
+	(global_label "SPI1_MISO"
 		(shape input)
 		(at 118.11 101.6 180)
 		(fields_autoplaced yes)

@@ -782,13 +782,13 @@
 		(at 129.54 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3bf23a57-42c6-4135-9e68-3d84e4385356")
+		(uuid "6c438f69-828f-4c91-917b-b90784f776e5")
 	)
 	(junction
 		(at 165.1 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "530fba60-81ec-4e0d-86e2-ccfa645f239a")
+		(uuid "7d55425f-025a-4cc2-9c99-d383acd2f28c")
 	)
 	(junction
 		(at 148.59 95.25)
@@ -952,7 +952,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 129.54 85.09 0)
+		(at 165.1 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -963,7 +963,7 @@
 		(fields_autoplaced yes)
 		(uuid "473f1a2b-0def-4786-a6f4-6b18f2095c08")
 		(property "Reference" "#PWR017"
-			(at 129.54 88.9 0)
+			(at 165.1 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -974,7 +974,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 129.54 80.01 0)
+			(at 165.1 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -984,7 +984,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 85.09 0)
+			(at 165.1 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -995,7 +995,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 85.09 0)
+			(at 165.1 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1006,7 +1006,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 129.54 85.09 0)
+			(at 165.1 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1283,7 +1283,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 165.1 85.09 0)
+		(at 129.54 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1294,7 +1294,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb8d1780-c5f0-4aab-b583-1a5288c89de2")
 		(property "Reference" "#PWR018"
-			(at 165.1 88.9 0)
+			(at 129.54 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1305,7 +1305,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 165.1 80.01 0)
+			(at 129.54 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1315,7 +1315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 85.09 0)
+			(at 129.54 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1326,7 +1326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 85.09 0)
+			(at 129.54 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1337,7 +1337,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 165.1 85.09 0)
+			(at 129.54 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
