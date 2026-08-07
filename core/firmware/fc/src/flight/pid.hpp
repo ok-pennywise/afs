@@ -16,6 +16,7 @@ struct State {
 };
 
 struct Controller {
+  Config config;
   explicit Controller(const Config *config);
   void compute(float error, float feedback, float dt);
   void reset();
