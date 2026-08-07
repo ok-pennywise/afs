@@ -76,7 +76,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|152250000|102125000|5a09e457-f252-424f-be5c-43d988d74ecd|335a221c-cfce-4426-8f48-7255e185a7c7",
+          ""
+        ],
+        [
+          "silk_edge_clearance|152250000|92725000|5a09e457-f252-424f-be5c-43d988d74ecd|d71d7bbf-439a-4781-bbd6-1f9ea9ada83f",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -510,7 +519,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.152,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -523,45 +532,45 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
+        "via_diameter": 0.61,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.152,
         "name": "3V3",
         "pcb_color": "rgb(42, 255, 97)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": "",
-        "via_diameter": 0.6,
+        "via_diameter": 0.61,
         "via_drill": 0.3
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.152,
         "name": "5V",
         "pcb_color": "rgb(255, 94, 0)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6,
         "tuning_profile": "",
-        "via_diameter": 0.6,
+        "via_diameter": 0.61,
         "via_drill": 0.3
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.152,
         "name": "GND",
         "pcb_color": "rgb(90, 90, 90)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": "",
-        "via_diameter": 0.6,
+        "via_diameter": 0.61,
         "via_drill": 0.3
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.152,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.2,
         "name": "USB",
@@ -570,18 +579,18 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
+        "via_diameter": 0.61,
         "via_drill": 0.3
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.152,
         "name": "VCAP",
         "pcb_color": "rgb(164, 19, 106)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": "",
-        "via_diameter": 0.6,
+        "via_diameter": 0.61,
         "via_drill": 0.3
       }
     ],
@@ -754,7 +763,7 @@
         "uuid": "91607daa-f95a-42b2-9a82-aba2b313bc70"
       }
     ],
-    "used_designators": "H1-4,D1-2,FB1,C1-19,#PWR1-39,J1-4,R1-8,U1-3,TP1-13,Y1,#FLG1-3",
+    "used_designators": "H1-4,FB1,D1-2,C1-19,#PWR1-39,J1-4,R1-8,TP1-13,Y1,U1-3,#FLG1-3",
     "variants": []
   },
   "sheets": [

@@ -3400,85 +3400,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 88.9 118.11 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f5aba19-8598-4af8-a08d-d7bfb62c06ac")
-		(property "Reference" "TP9"
-			(at 93.98 116.8399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 93.98 119.3799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 88.9 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 88.9 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "31cf8aac-d6de-4e12-9841-17418c3f5cda")
-		)
-		(instances
-			(project "rev_a"
-				(path "/91607daa-f95a-42b2-9a82-aba2b313bc70/c8b83238-c559-456d-a9d5-b8cc10e3ddc2"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 95.25 49.53 0)
 		(unit 1)
@@ -3852,7 +3773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43882c0c-dffa-4969-a5a8-1bd2a59ddbe3")
-		(property "Reference" "TP13"
+		(property "Reference" "TP12"
 			(at 170.18 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3913,7 +3834,7 @@
 		(instances
 			(project "rev_a"
 				(path "/91607daa-f95a-42b2-9a82-aba2b313bc70/c8b83238-c559-456d-a9d5-b8cc10e3ddc2"
-					(reference "TP13")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -4405,7 +4326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88eb716d-ce00-403c-8390-a9d9f42de3b5")
-		(property "Reference" "TP12"
+		(property "Reference" "TP11"
 			(at 170.18 58.4199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4466,86 +4387,7 @@
 		(instances
 			(project "rev_a"
 				(path "/91607daa-f95a-42b2-9a82-aba2b313bc70/c8b83238-c559-456d-a9d5-b8cc10e3ddc2"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 88.9 118.11 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a262d0a-4a8c-48cf-bf6c-d3287029dcc4")
-		(property "Reference" "#PWR033"
-			(at 92.71 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 85.09 118.1099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 88.9 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "19ecb9ac-b673-482c-9fe0-5fc5e1d44eb4")
-		)
-		(instances
-			(project "rev_a"
-				(path "/91607daa-f95a-42b2-9a82-aba2b313bc70/c8b83238-c559-456d-a9d5-b8cc10e3ddc2"
-					(reference "#PWR033")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -5373,7 +5215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bae5f0e1-9099-4ae8-8505-861311c709f5")
-		(property "Reference" "TP11"
+		(property "Reference" "TP10"
 			(at 95.25 170.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5434,7 +5276,7 @@
 		(instances
 			(project "rev_a"
 				(path "/91607daa-f95a-42b2-9a82-aba2b313bc70/c8b83238-c559-456d-a9d5-b8cc10e3ddc2"
-					(reference "TP11")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -5531,7 +5373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c10ff767-245e-4daa-9cf6-d592e0b6d3d9")
-		(property "Reference" "TP10"
+		(property "Reference" "TP9"
 			(at 95.25 165.0999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5592,7 +5434,7 @@
 		(instances
 			(project "rev_a"
 				(path "/91607daa-f95a-42b2-9a82-aba2b313bc70/c8b83238-c559-456d-a9d5-b8cc10e3ddc2"
-					(reference "TP10")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
