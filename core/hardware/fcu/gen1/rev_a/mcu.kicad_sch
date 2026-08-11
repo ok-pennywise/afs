@@ -5,7 +5,7 @@
 	(uuid "b256c4dd-8489-4ee5-a608-8a6a112c1574")
 	(paper "A4")
 	(title_block
-		(title "Micro Controller Unit")
+		(title "MCU - STM32F405")
 		(date "2026-08-05")
 		(rev "a")
 		(company "Airframe Studios")
@@ -2793,9 +2793,9 @@
 		)
 		(uuid "ff779602-6e2e-4bdf-8ffd-2a6408fbf401")
 	)
-	(text "Micro Controller Unit"
+	(text "MCU - STM32F405"
 		(exclude_from_sim no)
-		(at 110.744 37.846 0)
+		(at 106.934 38.354 0)
 		(effects
 			(font
 				(size 5.08 5.08)

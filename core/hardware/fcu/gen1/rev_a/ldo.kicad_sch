@@ -5,7 +5,7 @@
 	(uuid "b275308a-9826-4349-bd71-acf38eae8cd0")
 	(paper "A4")
 	(title_block
-		(title "Linear Dropout Regulator")
+		(title "LDO - AP2112K-3V3")
 		(date "2026-08-05")
 		(rev "a")
 		(company "Airframe Studios")
@@ -766,9 +766,9 @@
 		)
 		(uuid "268250c5-a6fd-4ed1-956a-160b941abbdd")
 	)
-	(text "Linear Dropout Regulator"
+	(text "LDO - AP2112K-3V3"
 		(exclude_from_sim no)
-		(at 152.908 58.166 0)
+		(at 146.05 58.166 0)
 		(effects
 			(font
 				(size 5.08 5.08)

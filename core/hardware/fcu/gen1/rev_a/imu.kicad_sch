@@ -5,7 +5,7 @@
 	(uuid "b3d8a514-e39b-4f74-99a5-5e14ce19a794")
 	(paper "A4")
 	(title_block
-		(title "Inertial Measurement Unit")
+		(title "IMU - ICM42688-P")
 		(date "2026-08-05")
 		(rev "a")
 		(company "Airframe Studios")
@@ -898,9 +898,9 @@
 		)
 		(uuid "b045db46-6913-4d98-937c-9e802ae029c6")
 	)
-	(text "Inertial Measurement Unit"
+	(text "IMU - ICM42688-P"
 		(exclude_from_sim no)
-		(at 122.682 48.514 0)
+		(at 110.998 48.514 0)
 		(effects
 			(font
 				(size 5.08 5.08)
