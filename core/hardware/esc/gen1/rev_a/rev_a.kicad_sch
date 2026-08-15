@@ -12,8 +12,8 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 135.89 84.455)
-		(size 24.13 26.67)
+		(at 138.43 73.025)
+		(size 33.02 33.655)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -26,9 +26,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "d7d3096c-5498-495b-875d-8082149c9582")
+		(uuid "3a4b4d46-ddf8-49f3-85f2-8e615b35fc1d")
 		(property "Sheetname" "MCU"
-			(at 135.89 83.7434 0)
+			(at 138.43 72.3134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39,7 +39,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 135.89 111.7096 0)
+			(at 138.43 107.2646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
