@@ -2117,6 +2117,12 @@
 		(uuid "ca7831cf-e26a-4edd-91ae-6f7c2d467034")
 	)
 	(junction
+		(at 175.26 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59f02b43-2edb-44ce-88d8-fc853782a41c")
+	)
+	(junction
 		(at 160.02 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2165,6 +2171,26 @@
 			(type default)
 		)
 		(uuid "3f737784-4153-43aa-8946-d8929d0232da")
+	)
+	(wire
+		(pts
+			(xy 172.72 81.28) (xy 175.26 81.28)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "4916c4a1-ce15-4f77-974f-67330273094a")
+	)
+	(wire
+		(pts
+			(xy 175.26 81.28) (xy 185.42 81.28)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "4d2485df-490b-445d-9fc5-d4c2189fe50d")
 	)
 	(wire
 		(pts
@@ -2218,6 +2244,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 76.2) (xy 185.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c161d9d3-9202-49ad-88bc-55c9258349ea")
+	)
+	(wire
+		(pts
 			(xy 124.46 66.04) (xy 139.7 66.04)
 		)
 		(stroke
@@ -2225,6 +2261,76 @@
 			(type default)
 		)
 		(uuid "dc235226-38bf-4b2b-9b47-e4e047ed1708")
+	)
+	(wire
+		(pts
+			(xy 175.26 78.74) (xy 185.42 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa98abde-fccd-4b8a-aa2c-8fcdf2e43c6d")
+	)
+	(label "TIM1_BKIN"
+		(at 175.26 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34b6d6e0-f77a-4a28-86ef-724691e29f36")
+	)
+	(label "TIM1_CH1 — Motor 1, Phase A high-side gate drive PWM"
+		(at 198.12 81.28 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "59da8dcf-cc86-408b-8a36-a29ab9d86034")
+	)
+	(label "TIM1_CH1N — Motor 1, Phase A low-side gate drive"
+		(at 198.12 78.74 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfc77005-0ccd-4ad8-a862-666141dfb6ab")
+	)
+	(label "TIM1_CH1N"
+		(at 175.26 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d81c9397-d687-4b31-8e7b-fafe2b9188f0")
+	)
+	(label "TIM1_CH1"
+		(at 175.26 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee54b698-848c-43e6-8a8b-9886fcb4151c")
+	)
+	(label "TIM1_BKIN — hardware break input; disables all Motor 1 PWM on fault"
+		(at 198.12 76.2 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8ef5bcd-e89c-4b9b-9d52-4e8ef3bccc60")
 	)
 	(global_label "SWCLK"
 		(shape input)
@@ -2374,6 +2480,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2452,6 +2564,12 @@
 		(instances
 			(project "rev_a"
 				(path "/9f6b4d82-987c-4e5d-af03-0ccef71a2a5b/3a4b4d46-ddf8-49f3-85f2-8e615b35fc1d"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
 					(reference "C2")
 					(unit 1)
 				)
@@ -2538,6 +2656,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2620,6 +2744,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2698,6 +2828,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2772,6 +2908,12 @@
 		(instances
 			(project "rev_a"
 				(path "/9f6b4d82-987c-4e5d-af03-0ccef71a2a5b/3a4b4d46-ddf8-49f3-85f2-8e615b35fc1d"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
 					(reference "#PWR03")
 					(unit 1)
 				)
@@ -2856,6 +2998,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2930,6 +3078,12 @@
 		(instances
 			(project "rev_a"
 				(path "/9f6b4d82-987c-4e5d-af03-0ccef71a2a5b/3a4b4d46-ddf8-49f3-85f2-8e615b35fc1d"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
 					(reference "#PWR01")
 					(unit 1)
 				)
@@ -3009,6 +3163,12 @@
 		(instances
 			(project "rev_a"
 				(path "/9f6b4d82-987c-4e5d-af03-0ccef71a2a5b/3a4b4d46-ddf8-49f3-85f2-8e615b35fc1d"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
 					(reference "#PWR06")
 					(unit 1)
 				)
@@ -3282,6 +3442,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3361,6 +3527,18 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
