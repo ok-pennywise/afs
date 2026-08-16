@@ -2494,10 +2494,6 @@
 		(uuid "605d4b18-ba9f-4f2c-8852-bb2c619070f0")
 	)
 	(no_connect
-		(at 176.53 85.09)
-		(uuid "8462c0f1-105b-45a6-84e1-842d9c09372d")
-	)
-	(no_connect
 		(at 140.97 107.95)
 		(uuid "8eace849-31fc-44d1-b0f5-e956a35de710")
 	)
@@ -2536,10 +2532,6 @@
 	(no_connect
 		(at 176.53 107.95)
 		(uuid "faf89c6d-2e8a-40f1-9127-cf628051a7a1")
-	)
-	(no_connect
-		(at 176.53 87.63)
-		(uuid "fe47e324-c76e-423f-a52d-03b7beb7871e")
 	)
 	(wire
 		(pts
@@ -3061,6 +3053,30 @@
 			)
 		)
 	)
+	(global_label "TELEM_TX"
+		(shape input)
+		(at 176.53 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e8505f1-f806-49b9-be49-f1fb90235b68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.405 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "M2_C"
 		(shape input)
 		(at 176.53 100.33 0)
@@ -3373,6 +3389,30 @@
 			)
 		)
 	)
+	(global_label "TELEM_RX"
+		(shape input)
+		(at 176.53 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4edfb68-5c1c-4448-be6e-b75a89f4bbbc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.7074 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "M1_C"
 		(shape input)
 		(at 176.53 62.23 0)
@@ -3617,6 +3657,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3695,6 +3741,12 @@
 		(instances
 			(project "rev_a"
 				(path "/9f6b4d82-987c-4e5d-af03-0ccef71a2a5b/3a4b4d46-ddf8-49f3-85f2-8e615b35fc1d"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
 					(reference "C4")
 					(unit 1)
 				)
@@ -3781,6 +3833,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3863,6 +3921,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3938,6 +4002,12 @@
 		(instances
 			(project "rev_a"
 				(path "/9f6b4d82-987c-4e5d-af03-0ccef71a2a5b/3a4b4d46-ddf8-49f3-85f2-8e615b35fc1d"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
 					(reference "#PWR06")
 					(unit 1)
 				)
@@ -4024,6 +4094,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
+					(reference "C8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4099,6 +4175,12 @@
 		(instances
 			(project "rev_a"
 				(path "/9f6b4d82-987c-4e5d-af03-0ccef71a2a5b/3a4b4d46-ddf8-49f3-85f2-8e615b35fc1d"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
 					(reference "#PWR09")
 					(unit 1)
 				)
@@ -4184,6 +4266,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4258,6 +4346,12 @@
 		(instances
 			(project "rev_a"
 				(path "/9f6b4d82-987c-4e5d-af03-0ccef71a2a5b/3a4b4d46-ddf8-49f3-85f2-8e615b35fc1d"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
 					(reference "#PWR07")
 					(unit 1)
 				)
@@ -4344,6 +4438,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4419,6 +4519,12 @@
 		(instances
 			(project "rev_a"
 				(path "/9f6b4d82-987c-4e5d-af03-0ccef71a2a5b/3a4b4d46-ddf8-49f3-85f2-8e615b35fc1d"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
 					(reference "#PWR08")
 					(unit 1)
 				)
@@ -4505,6 +4611,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
+					(reference "C9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4587,6 +4699,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4663,6 +4781,12 @@
 		(instances
 			(project "rev_a"
 				(path "/9f6b4d82-987c-4e5d-af03-0ccef71a2a5b/3a4b4d46-ddf8-49f3-85f2-8e615b35fc1d"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
 					(reference "FB1")
 					(unit 1)
 				)
@@ -4936,6 +5060,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5011,6 +5141,12 @@
 		(instances
 			(project "rev_a"
 				(path "/9f6b4d82-987c-4e5d-af03-0ccef71a2a5b/3a4b4d46-ddf8-49f3-85f2-8e615b35fc1d"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
 					(reference "R2")
 					(unit 1)
 				)
@@ -5097,6 +5233,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5172,6 +5314,12 @@
 		(instances
 			(project "rev_a"
 				(path "/9f6b4d82-987c-4e5d-af03-0ccef71a2a5b/3a4b4d46-ddf8-49f3-85f2-8e615b35fc1d"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
 					(reference "#PWR05")
 					(unit 1)
 				)
@@ -5255,6 +5403,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5329,6 +5483,12 @@
 		(instances
 			(project "rev_a"
 				(path "/9f6b4d82-987c-4e5d-af03-0ccef71a2a5b/3a4b4d46-ddf8-49f3-85f2-8e615b35fc1d"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -5411,6 +5571,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5489,6 +5655,12 @@
 					(unit 1)
 				)
 			)
+			(project "mcu"
+				(path "/d48ea97c-c769-4b5c-a38d-e440bbda801f"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(sheet_instances
@@ -5496,4 +5668,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
